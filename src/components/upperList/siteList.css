@@ -1,0 +1,26 @@
+.upperList {
+	background-color: lightsalmon;
+	width: 100vw;
+	top: 0;
+	position: relative;
+}
+
+.upperList li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20vw;
+	padding: 20px;
+}
+
+.upperList li:nth-child(1):hover, .upperList li:nth-child(2):hover {
+	background-color: rgb(129, 81, 62);
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.upperList li:nth-child(3) {
+	position: absolute;
+	top: -8%;
+	right: 10%;
+}
+

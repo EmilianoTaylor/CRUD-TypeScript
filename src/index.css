@@ -1,0 +1,46 @@
+
+header button {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 70px;
+	height: 30px;
+	font-size: 17px;
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 50px;
+	background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+	background-size: 600%;
+	-webkit-animation: anime 16s linear infinite;
+	animation: anime 16s linear infinite;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+}
+
+@-webkit-keyframes anime {
+	0% {
+			background-position: 0% 50%;
+	}
+
+	50% {
+			background-position: 100% 50%;
+	}
+
+	100% {
+			background-position: 0% 50%;
+	}
+}
+
+@keyframes anime {
+	0% {
+			background-position: 0% 50%;
+	}
+
+	50% {
+			background-position: 100% 50%;
+	}
+
+	100% {
+			background-position: 0% 50%;
+	}
+}
