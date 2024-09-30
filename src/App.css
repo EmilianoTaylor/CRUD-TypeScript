@@ -39,23 +39,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-family: 'Courier New', Courier, monospace;
 }
 
-.form__btn {
-	background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
-  border: 0;
-  color: rgba(var(--text-color));
-	cursor: pointer;
-  border-radius: 5px;
-	padding: 7px;
-	margin-bottom: 10px;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.form__btn:hover {
-	background-color: aliceblue;
-	border: 1px solid rgba(var(--primary-color), 0.5);
-	color: rgba(var(--text-color), 0.9);
-}
-
 .todo-list__btn {
 	margin: 2px 4px;
 	background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
